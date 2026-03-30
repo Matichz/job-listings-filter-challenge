@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-green-400: hsl(180, 29%, 50%);
+  --color-green-50: hsl(180, 52%, 96%);
+  --color-gray-400: hsl(180, 8%, 52%);
+  --color-green-900: hsl(180, 14%, 20%);
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url("/public/assets/fonts/League_Spartan/static/LeagueSpartan-Medium.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url("/public/assets/fonts/League_Spartan/static/LeagueSpartan-Bold.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+body {
+  background-color: hwb(180 94% 2%);
+  font-family:
+    "League Spartan", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
